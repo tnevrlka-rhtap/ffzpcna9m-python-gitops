@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: ffzpcna9m-python-repository
+spec:
+  url: https://github.com/tnevrlka-rhtap/ffzpcna9m-python

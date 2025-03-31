@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata: 
+  labels: 
+    app.kubernetes.io/instance: ffzpcna9m-python
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: ffzpcna9m-python 
+  name: ffzpcna9m-python
+spec:
+  ports:
+  - port: 8081 
+    targetPort: 8081 
+  selector:
+    app.kubernetes.io/instance: ffzpcna9m-python 
